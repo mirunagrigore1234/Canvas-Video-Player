@@ -68,7 +68,7 @@ All controls are drawn and handled directly on a single **canvas**, overlaid on 
 2. Right-click the `.html` file → **Open with Live Server**
 
 ### Option 2: Local HTTP server
-```bash
+
 python -m http.server 8000
 Then open http://localhost:8000 in your browser.
 
