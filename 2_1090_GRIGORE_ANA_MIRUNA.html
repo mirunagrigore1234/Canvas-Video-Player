@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Player video pe canvas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:,">
+
+    <!-- CSS player -->
+    <link rel="stylesheet" href="2_1090_GRIGORE_ANA_MIRUNA.css">
+</head>
+<body>
+
+<div class="container">
+    <div id="playerWrapper">
+        <!-- Canvas pe care desenăm video + controale -->
+        <canvas id="playerCanvas" width="960" height="540">
+            Canvas not supported.
+        </canvas>
+        <!-- Video ascuns, folosit doar ca sursă pentru canvas -->
+        <video id="videoHidden" crossorigin="anonymous"></video>
+    </div>
+
+    <div id="sidePanel">
+        <h3>Playlist</h3>
+        <ul id="playlist"></ul>
+
+        <label for="fileInput">Adaugă filme (input):</label>
+        <input type="file" id="fileInput" multiple accept="video/*">
+        <label for="subsInput">Adaugă subtitrare pentru video selectat:</label>
+        <input type="file" id="subsInput" accept=".json">
+
+        <div id="dropZone">
+            Sau trage și plasează fișiere video aici (drag &amp; drop)
+        </div>
+        
+
+        <hr>
+
+        <label for="effectSelect">Efect video:</label>
+        <select id="effectSelect">
+            <option value="none">Normal</option>
+            <option value="mirror">Mirror orizontal</option>
+            <option value="bright">Mai luminos</option>
+            <option value="posterize">Posterize</option>
+        </select>
+
+    </div>
+</div>
+
+<!-- script principal -->
+<script src="2_1090_GRIGORE_ANA_MIRUNA.js"></script>
+</body>
+</html>
