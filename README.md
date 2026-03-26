@@ -1,5 +1,6 @@
 # Canvas-Video-Player
 A web-based video player built with plain JavaScript and the HTML5 Canvas API, featuring custom canvas-rendered controls, playlist management, video effects, frame preview, and JSON-based subtitles.
+Real-time video effects implemented via pixel-level manipulation using the Canvas API (getImageData / putImageData).
 
 ---
 ## Videoplayer
@@ -10,7 +11,7 @@ A web-based video player built with plain JavaScript and the HTML5 Canvas API, f
 
 ### Canvas Pixel Processing (Video Effects)
 
-| Before | After |
+| Before (Original) | After (Posterize Effect) |
 |--------|-------|
 | ![](./Videoplayer.png) | ![](./Video_effect.png) |
 
