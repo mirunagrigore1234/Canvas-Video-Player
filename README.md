@@ -8,9 +8,11 @@ A web-based video player built with plain JavaScript and the HTML5 Canvas API, f
 
 ![Landing](Videoplayer.png)
 
-### Video Effect
+### Canvas Pixel Processing (Video Effects)
 
-![Landing](Video_effect.png)
+| Before | After |
+|--------|-------|
+| ![](./Videoplayer.png) | ![](./Video_effect.png) |
 
 ## Features
 
