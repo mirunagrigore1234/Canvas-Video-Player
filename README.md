@@ -63,6 +63,7 @@ All controls are drawn and handled directly on a single **canvas**, overlaid on 
 ## Project Structure
 
 ```text
+project/
 ├── 2_1090_GRIGORE_ANA_MIRUNA.html
 ├── 2_1090_GRIGORE_ANA_MIRUNA.css
 ├── 2_1090_GRIGORE_ANA_MIRUNA.js
