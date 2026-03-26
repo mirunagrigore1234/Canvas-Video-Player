@@ -62,12 +62,12 @@ All controls are drawn and handled directly on a single **canvas**, overlaid on 
 
 ## Project Structure
 
-.
+```text
 ├── 2_1090_GRIGORE_ANA_MIRUNA.html
 ├── 2_1090_GRIGORE_ANA_MIRUNA.css
 ├── 2_1090_GRIGORE_ANA_MIRUNA.js
 └── media/
-
+```
 
 > **Note:**  
 > The media files included in this repository are **royalty-free / public domain** assets (Pond5), used strictly for educational and portfolio purposes.  
@@ -93,22 +93,16 @@ Then open http://localhost:8000 in your browser.
 ]
 
 ## Technologies Used
-HTML5 Video
-
-Canvas 2D API
-
-JavaScript (Vanilla)
-
-Drag & Drop API
-
-Web Storage (localStorage)
+- HTML5 Video
+- Canvas 2D API
+- JavaScript (Vanilla)
+- Drag & Drop API
+- Web Storage (localStorage)
 
 ## Improvements
-Keyboard shortcuts (space, arrows)
-
-Fullscreen canvas support
-
-Additional video effects (blur, edge detection, grayscale)
+- Keyboard shortcuts (space, arrows)
+- Fullscreen canvas support
+- Additional video effects (blur, edge detection, grayscale)
 
 Playlist export/import (JSON)
 
